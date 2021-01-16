@@ -1,9 +1,7 @@
 from django.test import TestCase
 from django.contrib.auth import get_user_model
 
-
-TEST_EMAIL = 'test@gmail.com'
-TEST_PASSWORD = 'testpassword'
+from core.tests.constants import TEST_EMAIL, TEST_PASSWORD
 
 
 class ModelTests(TestCase):
